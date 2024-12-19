@@ -18,7 +18,7 @@
     <div class="absolute inset-0 bg-black bg-opacity-50"></div> 
 
     <div class="relative z-10 flex justify-center items-center h-full"> 
-        <div class="bg-white bg-opacity-50 backdrop-blur-md border border-white/25 rounded-[30px] p-10 w-3/4 text-center"> 
+        <div class="bg-white bg-opacity-50 backdrop-blur-md border border-white/25 rounded-[30px] p-10 w-80 text-center"> 
             <div class="mb-6 text-[#272829]"> 
                 <h2 class="text-2xl font-bold">Let's make it official!</h2> 
                 <p class="text-sm">Begin your registration now.</p> 

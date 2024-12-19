@@ -12,14 +12,14 @@
     <style> 
         body { 
             font-family: 'Poppins', sans-serif; 
-        } 
+        }
     </style> 
 </head> 
 <body class="h-screen bg-cover bg-center relative" style="background-image: url('assets/photo.webp');"> 
     <div class="absolute inset-0 bg-black bg-opacity-50"></div> 
 
     <div class="relative z-10 flex justify-center items-center h-full"> 
-        <div class="bg-white bg-opacity-50 backdrop-blur-md border border-white/25 rounded-[30px] p-10 w-3/4 text-center"> 
+        <div class="bg-white bg-opacity-50 backdrop-blur-md border border-white/25 rounded-[30px] p-10 w-80 text-center"> 
             <div class="mb-6 text-[#272829]"> 
                 <h2 class="text-2xl font-bold">Let's get you back in!</h2> 
                 <p class="text-sm">Please log in to continue.</p> 
