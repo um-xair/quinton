@@ -21,8 +21,8 @@
     <div class="relative z-10 flex justify-center items-center h-full"> 
         <div class="bg-white bg-opacity-50 backdrop-blur-md border border-white/25 rounded-[30px] p-10 w-3/4 text-center"> 
             <div class="mb-6 text-[#272829]"> 
-                <h2 class="text-2xl font-bold">Welcome Back!</h2> 
-                <p class="text-sm">Login to your account</p> 
+                <h2 class="text-2xl font-bold">Let's get you back in!</h2> 
+                <p class="text-sm">Please log in to continue.</p> 
             </div> 
             <form action="" method="POST"> 
                 <div class="mb-6"> 
@@ -37,7 +37,7 @@
                     </div> 
                 </div> 
                 <div> 
-                    <button type="submit" name="user_login" class="w-full bg-[#272829] text-white py-3 rounded-full font-semibold">Log in</button> 
+                    <button type="submit" name="user_login" class="w-full bg-[#272829] text-white py-3 rounded-full font-semibold">Log In</button> 
                     <a href="register.php" class="block mt-10 text-sm text-[#272829]">Don't have an account? <u>Sign Up</u></a> 
                     <a href="guest.php" class="block mt-2 text-sm text-[#272829]"><u>Continue as Guest</u></a>
                 </div> 
