@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -25,32 +25,31 @@
         }
     </style>
 </head>
-<body class="px-4 py-6 bg-[#F2F2F2]">
+<body class="px-4 py-6 bg-[#F2F2F2] fade-in">
 
-    <div class="fade-in bg-gradient-to-r from-[#151515] via-[#272829] to-[#151515] px-4 py-2 relative rounded-[20px] backdrop-blur-sm bg-opacity-40">
+    <div class="bg-gradient-to-r from-[#171717] via-[#171717] to-[#171717] px-4 py-2 relative rounded-[30px] backdrop-blur-sm bg-opacity-40">
         <div class="flex justify-between items-center">
             <div>
-                <button class="w-10 h-10 rounded-[20px] bg-white flex items-center justify-center">
-                    <i class="fas fa-bars text-lg text-[#272829]"></i>
+                <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+                    <i class="fas fa-bars text-lg text-[#171717]"></i>
                 </button>
             </div>
-
             <div class="flex-1 text-center">
-                <img src="assets/logo-white.png" alt="Explore the World Together" class="w-1/2 mx-auto">
+                <img src="assets/logo-white.png" alt="Explore the World Together" 
+                    class="w-1/2 mx-auto sm:w-1/3 md:w-1/4 lg:w-1/6">
             </div>
-
             <div>
-                <button class="w-10 h-10 rounded-[20px] bg-white flex items-center justify-center">
-                    <i class="fas fa-shopping-cart text-lg text-[#272829]"></i>
+                <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+                    <i class="fas fa-shopping-cart text-lg text-[#171717]"></i>
                 </button>
             </div>
         </div>
     </div>
 
-    <div class="fade-in mt-6 bg-gradient-to-r from-[#151515] via-[#272829] to-[#151515] p-10 relative rounded-[20px] backdrop-blur-sm bg-opacity-40">
+    <div class="mt-4 bg-gradient-to-r from-[#171717] via-[#171717] to-[#171717] p-10 relative rounded-[30px] backdrop-blur-sm bg-opacity-40">
         <div>
             <h1 class="text-5xl font-bold text-white">Find the Best Baby Gear</h1>
-            <p class="text-sm text-white mt-2">Stroller, car seat, high chair, playmat, and more</p>
+            <p class="text-md text-white mt-2">Stroller, car seat, high chair, playmat, and more</p>
         </div>
         <div class="mt-6 relative">
             <input 
@@ -58,27 +57,142 @@
                 placeholder="Search for products..." 
                 class="w-full p-3 pl-4 pr-10 rounded-full focus:outline-none" 
             />
-            <i class="fas fa-search absolute right-4 top-1/2 transform -translate-y-1/2 text-[#272829]"></i>
+            <i class="fas fa-search absolute right-4 top-1/2 transform -translate-y-1/2 text-[#171717]"></i>
         </div>
     </div>
 
-    <div class="mt-10 px-4">
-        <div class="grid grid-cols-3 gap-4 mb-6">
+    <div class="mt-10 px-2">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-extrabold text-[#171717]">Categories</h2>
+            <button class="w-10 h-10 bg-[#171717] rounded-full flex items-center justify-center">
+                <i class="fas fa-chevron-right text-white"></i>
+            </button>
+        </div>
+
+        <div class="grid grid-cols-3 gap-2">
             <div class="text-center">
-                <img src="assets/stroller.png" alt="Category Image 1" class="w-full h-auto object-cover bg-white rounded-[20px]">
-                <p class="mt-2 text-xs text-[#151515]">Stroller</p>
+                <div class="bg-white rounded-[20px] p-2">
+                    <img src="assets/stroller.png" alt="Category Image 1" class="w-full h-auto object-cover rounded-[20px]">
+                </div>
+                <p class="mt-2 text-sm md:text-base text-[#171717] text-center">Stroller</p>
             </div>
             <div class="text-center">
-                <img src="assets/car-seat.webp" alt="Category Image 2" class="w-full h-auto object-cover bg-white rounded-[20px]">
-                <p class="mt-2 text-xs text-[#151515]">Car Seat</p>
+                <div class="bg-white rounded-[20px] p-2">
+                    <img src="assets/car-seat.webp" alt="Category Image 2" class="w-full h-auto object-cover rounded-[20px]">
+                </div>
+                <p class="mt-2 text-sm md:text-base text-[#171717] text-center">Car Seat</p>
             </div>
             <div class="text-center">
-                <img src="assets/highchair.png" alt="Category Image 3" class="w-full h-auto object-cover bg-white rounded-[20px]">
-                <p class="mt-2 text-xs text-[#151515]">High Chair</p>
+                <div class="bg-white rounded-[20px] p-2">
+                    <img src="assets/highchair.png" alt="Category Image 3" class="w-full h-auto object-cover rounded-[20px]">
+                </div>
+                <p class="mt-2 text-sm md:text-base text-[#171717] text-center">High Chair</p>
             </div>
         </div>
     </div>
 
+    <div class="mt-10 bg-[#266FF1] p-4 relative rounded-[30px]">
+        <div class="grid grid-cols-6">
+            <div class="text-center col-span-2">
+                <img src="assets/streak.png" alt="streak" class="w-full h-auto object-cover">
+            </div>
+            <div class="flex flex-col justify-center text-left col-span-4">
+                <h1 class="text-4xl font-bold text-white">5 DAYS</h1>
+                <p class="text-sm text-white mt-2">Join Quinton for a 10-day adventure and unlock exciting new features!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-10 px-2">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-extrabold text-[#171717]">Special Offer</h2>
+            <button class="w-10 h-10 bg-[#171717] rounded-full flex items-center justify-center">
+                <i class="fas fa-chevron-right text-white"></i>
+            </button>
+        </div>
+
+        <div>
+            <img src="assets/banner.png" alt="special-offer" class="w-full h-auto object-cover">
+        </div>
+    </div>
+
+    <div class="mt-10 px-2">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-extrabold text-[#171717]">Explore Quinton</h2>
+            <button class="w-10 h-10 bg-[#171717] rounded-full flex items-center justify-center">
+                <i class="fas fa-chevron-right text-white"></i>
+            </button>
+        </div>
+
+        <div class="overflow-x-auto flex space-x-4">
+            <video class="w-full h-96 object-cover" controls>
+                <source src="assets/tiktok.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="w-full h-96 object-cover" controls>
+                <source src="assets/tiktok2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="w-full h-96 object-cover" controls>
+                <source src="assets/tiktok3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="mt-10 px-2">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-extrabold text-[#171717]">Upcoming Events</h2>
+            <button class="w-10 h-10 bg-[#171717] rounded-full flex items-center justify-center">
+                <i class="fas fa-chevron-right text-white"></i>
+            </button>
+        </div>
+
+        <div>
+            <img src="https://babyfairsg.com/wp-content/uploads/2023/01/TCE-Baby-Fair-Mid-Valley-KL-2-5-Mar-2023.jpg" alt="Upcoming-Events" class="w-full h-auto object-cover">
+        </div>
+    </div>
+
+    <div class="mt-10 px-2">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-extrabold text-[#171717]">Best Choices</h2>
+            <button class="w-10 h-10 bg-[#171717] rounded-full flex items-center justify-center">
+                <i class="fas fa-chevron-right text-white"></i>
+            </button>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="text-left">
+                <div class="bg-white rounded-[20px] p-2 relative">
+                    <img src="assets/stroller.png" alt="product-img-1" class="w-full h-auto object-cover">
+                    <i class="fas fa-heart text-lg text-[#F12666] absolute top-3 right-4 cursor-pointer" id="heart-1" onclick="toggleHeart('heart-1')"></i>
+                </div>
+                <p class="mt-2 text-sm md:text-base text-[#171717]">On The Go</p>
+                <p class="text-md text-[#171717] font-bold">RM 999.00</p>
+            </div>
+            <div class="text-left">
+                <div class="bg-white rounded-[20px] p-2 relative">
+                    <img src="assets/car-seat.webp" alt="product-img-2" class="w-full h-auto object-cover">
+                    <i class="fas fa-heart text-lg text-[#F12666] absolute top-3 right-4 cursor-pointer" id="heart-2" onclick="toggleHeart('heart-2')"></i>
+                </div>
+                <p class="mt-2 text-sm md:text-base text-[#171717]">Maple 360</p>
+                <p class="text-md text-[#171717] font-bold">RM 1699.00</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleHeart(id) {
+            const heartIcon = document.getElementById(id);
+            if (heartIcon.classList.contains('fas')) {
+                heartIcon.classList.remove('fas');
+                heartIcon.classList.add('far');
+            } else {
+                heartIcon.classList.remove('far');
+                heartIcon.classList.add('fas');
+            }
+        }
+    </script>
 
 </body>
 </html>

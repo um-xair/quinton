@@ -18,28 +18,32 @@
 <body class="h-screen bg-cover bg-center relative" style="background-image: url('assets/photo.webp');"> 
     <div class="absolute inset-0 bg-black bg-opacity-50"></div> 
 
-    <div class="relative z-10 flex justify-center items-center h-full"> 
-        <div class="bg-white bg-opacity-50 backdrop-blur-md border border-white/25 rounded-[30px] p-10 w-80 text-center"> 
-            <div class="mb-6 text-[#272829]"> 
+    <div class="relative z-10 flex justify-center items-center h-full px-4"> 
+        <div class="bg-white bg-opacity-50 backdrop-blur-md rounded-[30px] p-10 w-full text-center"> 
+            <div class="mb-6 text-[#171717]"> 
                 <h2 class="text-2xl font-bold">Let's get you back in!</h2> 
                 <p class="text-sm">Please log in to continue.</p> 
             </div> 
             <form action="" method="POST"> 
                 <div class="mb-6"> 
                     <div class="flex items-center rounded-full px-4 py-3 mb-4 bg-white">
-                        <i class="fas fa-envelope text-[#272829]"></i>
+                        <i class="fas fa-envelope text-[#171717]"></i>
                         <input type="email" name="email" placeholder="email address" required class="flex-1 w-full px-2 text-gray-700 focus:outline-none">
                     </div>
                     <div class="flex items-center rounded-full px-4 py-3 relative bg-white"> 
-                        <i class="fas fa-lock text-[#272829]"></i> 
+                        <i class="fas fa-lock text-[#171717]"></i> 
                         <input type="password" id="password" name="password" placeholder="password" required class="flex-1 w-full px-2 text-gray-700 focus:outline-none"> 
-                        <i class="fas fa-eye-slash text-[#272829] absolute right-4 cursor-pointer" id="togglePassword" onclick="togglePassword()"></i> 
+                        <i class="fas fa-eye-slash text-[#171717] absolute right-4 cursor-pointer" id="togglePassword" onclick="togglePassword()"></i> 
                     </div> 
                 </div> 
                 <div> 
-                    <button type="submit" name="user_login" class="w-full bg-[#272829] text-white py-3 rounded-full font-semibold">Log In</button> 
-                    <a href="register.php" class="block mt-10 text-sm text-[#272829]">Don't have an account? <u>Sign Up</u></a> 
-                    <a href="guest.php" class="block mt-2 text-sm text-[#272829]"><u>Continue as Guest</u></a>
+                    <a href="home.php" class="w-full">
+                        <button type="submit" name="user_login" class="w-full bg-[#232323] text-white py-3 rounded-full font-semibold">
+                            Log In
+                        </button>
+                    </a>
+                    <a href="register.php" class="block mt-10 text-sm text-[#171717]">Don't have an account? <u>Register Now</u></a> 
+                    <a href="guest.php" class="block mt-2 text-sm text-[#171717]"><u>Continue as Guest</u></a>
                 </div> 
             </form> 
         </div> 

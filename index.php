@@ -25,12 +25,16 @@
                 <img src="assets/explore.png" alt="Explore the World Together" class="w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3 h-auto">
             </div>
             <div class="flex flex-col items-center mb-12 px-4 sm:px-8 md:px-10 lg:px-12 space-y-4">
-                <p class="text-justify text-sm sm:text-md md:text-lg lg:text-xl">
-                    By using this app, I acknowledge that I have read and agree to the
-                    <a href="https://www.quintonbaby.com.my/terms-and-conditions/" class="underline" target="_blank">Terms of Service</a> and
-                    <a href="https://www.quintonbaby.com.my/privacy-policy/" class="underline" target="_blank">Privacy Policy</a>.
-                </p>
-                <button onclick="checkPolicy()" class="bg-white text-[#272829] py-4 px- rounded-full w-full font-semibold hover:bg-[#61677A] hover:text-white transition-all duration-200 ease-in-out">
+                <div class="flex items-start space-x-2">
+                    <input type="checkbox" id="policyCheckbox" class="w-10 h-10 text-[#272829] rounded" />
+                    <p class="text-justify text-md md:text-lg lg:text-xl">
+                        By using this app, I acknowledge that I have read and agree to the
+                        <a href="https://www.quintonbaby.com.my/terms-and-conditions/" class="underline" target="_blank">Terms of Service</a> and
+                        <a href="https://www.quintonbaby.com.my/privacy-policy/" class="underline" target="_blank">Privacy Policy</a>.
+                    </p>
+                </div>
+                <button onclick="checkPolicy()" 
+                    class="bg-white/50 text-[#171717] py-4 px-4 rounded-full w-full font-semibold hover:bg-white transition-all duration-200 ease-in-out backdrop-blur-md">
                     Yes, I agree and let’s continue
                 </button>
             </div>
