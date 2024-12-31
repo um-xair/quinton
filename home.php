@@ -23,28 +23,25 @@
         .fade-in {
             animation: fadeIn 1s ease-in-out forwards;
         }
+        .floating-animation {
+            animation: float 2s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
-<body class="px-4 py-6 bg-[#F2F2F2] fade-in">
+<body class="px-4 py-6 bg-[#F2F2F2] fade-in mb-[200px]">
 
-    <div class="bg-gradient-to-r from-[#171717] via-[#171717] to-[#171717] px-4 py-2 relative rounded-[30px] backdrop-blur-sm bg-opacity-40">
-        <div class="flex justify-between items-center">
-            <div>
-                <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
-                    <i class="fas fa-bars text-lg text-[#171717]"></i>
-                </button>
-            </div>
-            <div class="flex-1 text-center">
-                <img src="assets/logo-white.png" alt="Explore the World Together" 
-                    class="w-1/2 mx-auto sm:w-1/3 md:w-1/4 lg:w-1/6">
-            </div>
-            <div>
-                <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
-                    <i class="fas fa-shopping-cart text-lg text-[#171717]"></i>
-                </button>
-            </div>
-        </div>
-    </div>
+    <?php include('header.php'); ?>
 
     <div class="mt-4 bg-gradient-to-r from-[#171717] via-[#171717] to-[#171717] p-10 relative rounded-[30px] backdrop-blur-sm bg-opacity-40">
         <div>
@@ -193,6 +190,30 @@
             }
         }
     </script>
+
+    <div class="bg-gradient-to-tr from-[#171717] via-[#2a2a35] to-[#171717] p-4 fixed bottom-0 left-0 w-full h-24 z-[888]">
+        <div class="flex justify-between items-center text-center">
+            <div class="flex flex-col items-center text-white">
+                <i class="fas fa-file-alt text-2xl"></i>
+                <p class="text-xs mt-1">Warranty</p>
+            </div>
+            <div class="flex flex-col items-center text-white">
+                <i class="fas fa-map-marker-alt text-2xl"></i>
+                <p class="text-xs mt-1">Find Us</p>
+            </div>
+            <div class="bg-gradient-to-tr from-[#171717] via-[#2a2a35] to-[#171717] rounded-full w-20 h-20 flex items-center justify-center -mt-10 floating-animation">
+                <img src="assets/q.png" alt="Logo" class="w-10 h-10">
+            </div>
+            <div class="flex flex-col items-center text-white">
+                <i class="fas fa-search text-2xl"></i>
+                <p class="text-xs mt-1">Search</p>
+            </div>
+            <div class="flex flex-col items-center text-white">
+                <i class="fas fa-user-circle text-2xl"></i>
+                <p class="text-xs mt-1">Profile</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
