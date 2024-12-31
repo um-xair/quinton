@@ -193,27 +193,31 @@
 
     <div class="bg-gradient-to-tr from-[#171717] via-[#2a2a35] to-[#171717] p-4 fixed bottom-0 left-0 w-full h-24 z-[888]">
         <div class="flex justify-between items-center text-center">
-            <div class="flex flex-col items-center text-white">
+            <a href="warranty/warranty-before.php" class="flex flex-col items-center text-white">
                 <i class="fas fa-file-alt text-2xl"></i>
                 <p class="text-xs mt-1">Warranty</p>
-            </div>
-            <div class="flex flex-col items-center text-white">
+            </a>
+            <a href="#find-us" class="flex flex-col items-center text-white">
                 <i class="fas fa-map-marker-alt text-2xl"></i>
                 <p class="text-xs mt-1">Find Us</p>
-            </div>
+            </a>
+
             <div class="bg-gradient-to-tr from-[#171717] via-[#2a2a35] to-[#171717] rounded-full w-20 h-20 flex items-center justify-center -mt-10 floating-animation">
                 <img src="assets/q.png" alt="Logo" class="w-10 h-10">
             </div>
-            <div class="flex flex-col items-center text-white">
+
+            <a href="#search" class="flex flex-col items-center text-white">
                 <i class="fas fa-search text-2xl"></i>
                 <p class="text-xs mt-1">Search</p>
-            </div>
-            <div class="flex flex-col items-center text-white">
+            </a>
+
+            <a href="#profile" class="flex flex-col items-center text-white">
                 <i class="fas fa-user-circle text-2xl"></i>
                 <p class="text-xs mt-1">Profile</p>
-            </div>
+            </a>
         </div>
     </div>
+
 
 </body>
 </html>

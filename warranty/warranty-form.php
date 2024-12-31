@@ -18,9 +18,9 @@
 
     <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
-            <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="warranty-product.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
-            </button>
+            </a>
             <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl">Warranty</h1>
             <div class="w-10 h-10"></div>
         </div>
@@ -205,11 +205,10 @@
     </div>
 
     <div class="mt-10 px-6 mb-6">
-        <a href="#" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
+        <a href="warranty-after.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Submit
         </a>
     </div>
-
 
     <script>
         function toggleProductGrid(category) {
@@ -220,9 +219,7 @@
             const selectedGrid = document.getElementById(category + 'Grid');
             selectedGrid.classList.remove('hidden');
         }
-    </script>
 
-    <script>
         const stars = document.querySelectorAll('#starRating .fa-star');
         let selectedRating = 0;
 

@@ -18,9 +18,9 @@
 
     <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
-            <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="warranty-after.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
-            </button>
+            </a>
             <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl">Warranty</h1>
             <div class="w-10 h-10"></div>
         </div>
@@ -40,35 +40,38 @@
             </div>
         </div>
         <div class="flex justify-center mt-4">
-            <button class="w-4/5 inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
+            <button onclick="window.location.href='#product-page'" class="w-4/5 inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
                 View Product
             </button>
         </div>
     </div>
 
     <div class="mt-10 w-full">
-        <button class="w-full h-32 bg-[#232323] text-[#FFFFFF] py-4 rounded-t-[60px] text-lg font-bold flex items-center justify-center space-x-4 sm:text-base md:text-lg lg:text-xl">
-            <img src="../assets/warranty.png" alt="Document Icon" class="w-12 h-12">
-            <span>Warranty Condition</span>
-        </button>
-
+        <a href="warranty-condition.php">
+            <button class="w-full h-32 bg-[#232323] text-[#FFFFFF] py-4 rounded-t-[60px] text-lg font-bold flex items-center justify-center space-x-4 sm:text-base md:text-lg lg:text-xl">
+                <img src="../assets/warranty.png" alt="Document Icon" class="w-12 h-12">
+                <span>Warranty Condition</span>
+            </button>
+        </a>
+        
         <div class="bg-[#232323]">
-            <button class="w-full h-32 bg-[#266FF1] text-[#FFFFFF] py-4 rounded-t-[60px] text-lg font-bold flex items-center justify-center space-x-4 sm:text-base md:text-lg lg:text-xl">
-                <img src="../assets/faq.png" alt="Document Icon" class="w-12 h-12">
-                <span>FAQ Section</span>
-            </button>
+            <a href="warranty-faq.php">
+                <button class="w-full h-32 bg-[#266FF1] text-[#FFFFFF] py-4 rounded-t-[60px] text-lg font-bold flex items-center justify-center space-x-4 sm:text-base md:text-lg lg:text-xl">
+                    <img src="../assets/faq.png" alt="Document Icon" class="w-12 h-12">
+                    <span>FAQ Section</span>
+                </button>
+            </a>
         </div>
-
+        
         <div class="bg-[#266FF1]">
-            <button class="w-full h-32 bg-[#ffffff] text-[#232323] py-4 rounded-t-[60px] text-lg font-bold flex items-center justify-center space-x-4 sm:text-base md:text-lg lg:text-xl">
-                <img src="../assets/document.png" alt="Document Icon" class="w-12 h-12">
-                <span>Document & Practices</span>
-            </button>
+            <a href="warranty-doc.php">
+                <button class="w-full h-32 bg-[#ffffff] text-[#232323] py-4 rounded-t-[60px] text-lg font-bold flex items-center justify-center space-x-4 sm:text-base md:text-lg lg:text-xl">
+                    <img src="../assets/document.png" alt="Document Icon" class="w-12 h-12">
+                    <span>Document & Practices</span>
+                </button>
+            </a>
         </div>        
     </div>
-
-
-
-
+        
 </body>
 </html>
