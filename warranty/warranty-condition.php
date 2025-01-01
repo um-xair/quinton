@@ -28,7 +28,7 @@
         }
     </style>
 </head>
-<body class="bg-[#F2F2F2] overflow-auto">
+<body class="bg-[#F2F2F2] overflow-auto mb-[50px]">
 
     <div class="flex items-center px-6 py-2 h-40">
         <a href="warranty-details.php">
