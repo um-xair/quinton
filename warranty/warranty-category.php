@@ -18,9 +18,9 @@
 
     <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
-            <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="../home.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
-            </button>
+            </a>
             <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl">Warranty</h1>
             <div class="w-10 h-10"></div>
         </div>
