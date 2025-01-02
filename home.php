@@ -200,7 +200,7 @@
 
             <a href="#find-us" class="mt-2 flex flex-col items-center text-white">
                 <i class="fas fa-map-marker-alt text-2xl"></i>
-                <p class="text-xs mt-1">Find Us</p>
+                <p class="text-xs mt-1">Retail Partners</p>
             </a>
 
             <div class="bg-gradient-to-tr from-[#171717] via-[#2a2a35] to-[#171717] rounded-full w-20 h-20 flex items-center justify-center -mt-10 floating-animation">
