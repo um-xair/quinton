@@ -35,26 +35,27 @@
             <h1 class="text-6xl font-bold text-white">Profile</h1>
         </div>
         <div class="mt-4 absolute bottom-50 left-6">
-            <img src="https://i.pinimg.com/474x/c0/57/20/c057205ae678ccb9d79c2d958feb0283.jpg" alt="Profile Picture" 
+            <img src="https://i.pinimg.com/736x/c4/be/01/c4be019342074aba27dbe03dfe597c04.jpg" alt="Profile Picture" 
                  class="w-40 h-40 rounded-full object-cover">
             <p class="text-md text-[#171717] mt-2 text-center">AlyssaTheGreatDev</p>
         </div>
     </div>
 
-
     <div class="mt-40 bg-[#266FF1] p-4 relative rounded-[30px]">
-        <div class="grid grid-cols-6">
-            <div class="text-center col-span-2">
-                <img src="../assets/streak.png" alt="streak" class="w-full h-auto object-cover">
+        <a href="../streak.php" class="block">
+            <div class="grid grid-cols-6">
+                <div class="text-center col-span-2">
+                    <img src="../assets/streak.png" alt="streak" class="w-full h-auto object-cover">
+                </div>
+                <div class="flex flex-col justify-center text-left col-span-4">
+                    <h1 class="text-4xl font-bold text-white">5 DAYS</h1>
+                    <p class="text-sm text-white mt-2">Join Quinton for a 10-day adventure and unlock exciting new features!</p>
+                </div>
             </div>
-            <div class="flex flex-col justify-center text-left col-span-4">
-                <h1 class="text-4xl font-bold text-white">5 DAYS</h1>
-                <p class="text-sm text-white mt-2">Join Quinton for a 10-day adventure and unlock exciting new features!</p>
-            </div>
-        </div>
+        </a>
     </div>
 
-    <div class="mt-6">
+    <div class="mt-4">
             <div class="bg-[#171717] rounded-[30px] p-4">
                 <div class="grid grid-cols-4 gap-4 text-center">
                     <a href="#" class="flex flex-col items-center">
@@ -94,12 +95,39 @@
         </div>
     </div>
 
-    <div class="mt-6">
+    <div class="mt-4">
+        <div class="bg-white p-6 rounded-[30px]">
+            <div class="flex items-center w-full">
+                <div class="w-1/3">
+                    <img src="../assets/review.png" alt="Image" class="w-full h-auto object-cover">
+                </div>
+                <div class="w-2/3 pl-4">
+                    <span class="text-4xl font-extrabold text-[#171717]">Review & Redeem</span>
+                </div>
+            </div>
+            <div class="mt-4 text-xs text-[#171717]">
+                <p>Review & Redeem: Share your Quinton product review on social media, screenshot it, and upload it to the Quinton app to receive a premium gift. Terms and conditions apply.</p>
+            </div>
+            <div class="flex items-center w-full mt-4">
+                <div class="w-2/3">
+                    <span class="text-4xl font-extrabold text-[#171717]">Verify & Claim</span>
+                </div>
+                <a href="review-redeem.php">
+                    <div class="w-32 bg-[#F3F3F3] p-6 rounded-[30px] flex flex-col items-center justify-center">
+                        <i class="fa-solid fa-camera text-[#171717] text-4xl"></i>
+                        <p class="text-xs text-[#171717] mt-2 text-center">Upload Photo</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
         <div class="bg-white rounded-[30px] p-6">
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-3xl font-bold text-[#171717]">General</h2>
             </div>
-            <a href="#">
+            <a href="personal-info.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -116,7 +144,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
+            <a href="address-before.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -170,7 +198,7 @@
         </div>
     </div>
 
-    <div class="mt-6">
+    <div class="mt-4">
         <div class="bg-white rounded-[30px] p-6">
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-3xl font-bold text-[#171717]">Legal Notice</h2>
@@ -245,8 +273,6 @@
             </a>
         </div>
     </div>
-
-
 
 </body>
 </html>
