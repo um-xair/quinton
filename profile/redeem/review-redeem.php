@@ -71,7 +71,7 @@
     </div>
 
     <div class="mt-10 px-6 w-full px-6 slide-up-fade-in">
-        <a href="personal-info.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
+        <a href="../redeem/redeem-form.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Join Now
         </a>
     </div>
