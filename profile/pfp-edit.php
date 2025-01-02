@@ -38,7 +38,7 @@
         </a>
     </div>
 
-    <div class="w-full p-6 relative">
+    <div class="w-full p-6 relative slide-up-fade-in">
         <div class="w-40 h-40 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden">
             <img id="profile-image" src="https://i.pinimg.com/736x/77/67/26/7767263d0002e31bbf715dcaef60af09.jpg" alt="Profile Picture" class="w-full h-full object-cover">
         </div>
@@ -55,7 +55,7 @@
         </label>
     </div>
 
-    <div class="fixed bottom-10 left-0 w-full px-6 z-[999]">
+    <div class="fixed bottom-10 left-0 w-full px-6 z-[999] slide-up-fade-in">
         <a href="personal-info.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Save
         </a>

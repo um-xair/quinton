@@ -112,7 +112,7 @@
                 <div class="w-2/3">
                     <span class="text-4xl font-extrabold text-[#171717]">Verify & Claim</span>
                 </div>
-                <a href="review-redeem.php">
+                <a href="../profile/redeem/review-redeem.php">
                     <div class="w-32 bg-[#F3F3F3] p-6 rounded-[30px] flex flex-col items-center justify-center">
                         <i class="fa-solid fa-camera text-[#171717] text-4xl"></i>
                         <p class="text-xs text-[#171717] mt-2 text-center">Upload Photo</p>
@@ -144,7 +144,7 @@
                     </div>
                 </div>
             </a>
-            <a href="address-before.php">
+            <a href="../profile/address/address-before.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -161,7 +161,7 @@
                     </div>
                 </div>
             </a>
-            <a href="family-before.php">
+            <a href="../profile/family/family-before.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -178,7 +178,7 @@
                     </div>
                 </div>
             </a>
-            <a href="notification-before.php">
+            <a href="../profile/notification/notification-before.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -203,7 +203,7 @@
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-3xl font-bold text-[#171717]">Legal Notice</h2>
             </div>
-            <a href="privacy-policy.php">
+            <a href="../profile/legal/privacy-policy.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -220,7 +220,7 @@
                     </div>
                 </div>
             </a>
-            <a href="shipping-policy.php">
+            <a href="../profile/legal/shipping-policy.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -237,7 +237,7 @@
                     </div>
                 </div>
             </a>
-            <a href="return-policy.php">
+            <a href="../profile/legal/return-policy.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </a>
-            <a href="terms.php">
+            <a href="../profile/legal/terms.php">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
                         <div class="w-10 h-10 flex items-center justify-center">

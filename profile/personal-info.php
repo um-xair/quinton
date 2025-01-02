@@ -25,7 +25,7 @@
         }
     </style>
 </head>
-<body class="font-[Poppins] bg-[#F2F2F2] h-auto fade-in mb-[200px]">
+<body class="font-[Poppins] bg-[#F2F2F2] h-auto fade-in">
 
     <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
@@ -78,14 +78,20 @@
 
             <div class="mb-6">
                 <label for="race" class="block text-[#171717] text-md font-semibold">Race</label>
-                <input type="text" id="race" name="race" placeholder="Enter your race" class="w-full p-3 mt-2 rounded-full" required>
+                <select id="race" name="race" class="w-full p-3 mt-2 rounded-full" required>
+                    <option value="" disabled selected>Select your race</option>
+                    <option value="malay">Malay</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="indian">Indian</option>
+                    <option value="others">Others</option>
+                </select>
             </div>
 
         </form>
     </div>
 
-    <div class="fixed bottom-10 left-0 w-full px-6 z-[999]">
-        <a href="address-form.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
+    <div class="mt-10 mb-6 w-full px-6">
+        <a href="personal-info-submit.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Save
         </a>
     </div>

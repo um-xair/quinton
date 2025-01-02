@@ -25,11 +25,11 @@
         }
     </style>
 </head>
-<body class="font-[Poppins] bg-[#F2F2F2] h-auto fade-in mb-[200px]">
+<body class="font-[Poppins] bg-[#F2F2F2] h-auto fade-in mb-[100px]">
 
 <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
-            <a href="profile.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="../profile.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
             </a>
             <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl">Address</h1>
@@ -115,7 +115,7 @@
         </div>
     </div>
 
-    <div class="fixed bottom-10 left-0 w-full px-6 z-[999]">
+    <div class="mt-10 w-full px-6 z-[999]">
         <a href="address-form.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Add Address
         </a>

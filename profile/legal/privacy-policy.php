@@ -31,7 +31,7 @@
 <body class="bg-[#F2F2F2] overflow-auto mb-[50px]">
 
     <div class="flex items-center px-6 py-2 h-40">
-        <a href="profile.php">
+        <a href="../profile.php">
             <button class="w-10 h-10 rounded-full bg-[#171717] flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-white"></i>
             </button>

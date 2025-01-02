@@ -43,8 +43,8 @@
 </head>
 <body class="font-[Poppins] bg-[#FFFFFF] h-screen flex justify-center items-center">
     <div id="content" class="text-center px-6 slide-up-fade-in">
-        <img src="https://i.pinimg.com/736x/b5/07/f9/b507f94fd46bcf368d83607989ca4533.jpg" alt="Warranty Image" class="w-[80%] mx-auto mb-4">
-        <p class="text-3xl font-extrabold text-[#171717]">Thanks for Submitting Your Warranty!</p>
+        <img src="https://i.pinimg.com/736x/b5/07/f9/b507f94fd46bcf368d83607989ca4533.jpg" alt="PFP Image" class="w-[80%] mx-auto mb-4">
+        <p class="text-3xl font-extrabold text-[#171717]">Your Profile Is Now Up-to-Date!</p>
     </div>
 
     <script>
@@ -52,7 +52,7 @@
             const content = document.getElementById('content');
             content.classList.add('fade-out');
             setTimeout(() => {
-                window.location.href = "warranty-after.php";
+                window.location.href = "personal-info.php";
             }, 1000);
         }, 1500);
     </script>

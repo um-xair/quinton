@@ -55,13 +55,16 @@
             }
         }
         
+        .fade-out {
+            animation: fadeOut 1s ease-out forwards;
+        }
     </style>
 </head>
 <body class="font-[Poppins] bg-[#F2F2F2] h-screen fade-in mb-[100px]">
 
     <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
-            <a href="profile.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="../profile.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
             </a>
             <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl">Notification</h1>
@@ -80,7 +83,7 @@
                     <span id="moreText" class="hidden">This is just the beginning! Take advantage of unbeatable prices on all our products, including exclusive online-only offers. Hurry, while stocks last!</span>
                 </p>
                 <a href="javascript:void(0)" id="seeMoreLink" class="text-blue-500 text-sm" onclick="toggleText()">See More</a>
-                <img src="../assets/banner.png" alt="12.12 Promotion" class="w-full rounded-lg mt-4">
+                <img src="../../assets/banner.png" alt="12.12 Promotion" class="w-full rounded-lg mt-4">
             </div>
         </div>
 
@@ -101,17 +104,16 @@
         </svg>
     </a>
 
-    <div id="dropdownMenu" class="hidden fixed bottom-20 right-6 bg-white shadow-lg rounded-lg w-48">
-        <ul class="py-2 text-[#171717]">
-            <li class="px-4 py-2 hover:bg-gray-100 cursor-pointer" onclick="deleteAllNotifications()">Delete All</li>
+    <div id="dropdownMenu" class="hidden fixed bottom-20 right-6 bg-[#171717] rounded-[10px] w-48 mb-4">
+        <ul class="py-2 text-[#FFFFFF]">
+            <li class="px-4 py-2 cursor-pointer" onclick="deleteAllNotifications()">Delete All</li>
         </ul>
     </div>
 
-    <div id="successModal" class="modal w-full  floatUp fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-30 hidden">
-        <div class="bg-white text-[#171717] p-6 rounded-[30px] text-center w-[80%]">
-            <img src="https://assets-v2.lottiefiles.com/a/e09820ea-116b-11ee-8e93-4f2a1602d144/VSOpyqTQGL.gif" alt="Success Icon" class="mb-4 w-24 h-24 sm:w-32 sm:h-32 mx-auto">
-            <p class="text-lg mb-4">Successfully deleted</p>
-            <button onclick="closeModal()" class="w-full bg-[#171717] text-white py-6 rounded-full font-bold">OK</button>
+    <div id="successModal" class="modal w-full h-full fixed inset-0 bg-white flex items-center justify-center z-30 hidden">
+        <div id="content" class="text-center px-6 slide-up-fade-in">
+            <img src="https://i.pinimg.com/736x/b5/07/f9/b507f94fd46bcf368d83607989ca4533.jpg" alt="notification" class="w-[80%] mx-auto mb-4">
+            <p class="text-3xl font-extrabold text-[#171717]">Poof! Your Notification Is Gone!</p>
         </div>
     </div>
 

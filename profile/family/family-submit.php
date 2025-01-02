@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warranty</title>
+    <title>Family</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -43,8 +43,8 @@
 </head>
 <body class="font-[Poppins] bg-[#FFFFFF] h-screen flex justify-center items-center">
     <div id="content" class="text-center px-6 slide-up-fade-in">
-        <img src="https://i.pinimg.com/736x/b5/07/f9/b507f94fd46bcf368d83607989ca4533.jpg" alt="Warranty Image" class="w-[80%] mx-auto mb-4">
-        <p class="text-3xl font-extrabold text-[#171717]">Thanks for Submitting Your Warranty!</p>
+        <img src="https://i.pinimg.com/736x/b5/07/f9/b507f94fd46bcf368d83607989ca4533.jpg" alt="Family Image" class="w-[80%] mx-auto mb-4">
+        <p class="text-3xl font-extrabold text-[#171717]">Family Added – Welcome Aboard!</p>
     </div>
 
     <script>
@@ -52,7 +52,7 @@
             const content = document.getElementById('content');
             content.classList.add('fade-out');
             setTimeout(() => {
-                window.location.href = "warranty-after.php";
+                window.location.href = "family-after.php";
             }, 1000);
         }, 1500);
     </script>

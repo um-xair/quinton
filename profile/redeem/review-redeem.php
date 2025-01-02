@@ -31,7 +31,7 @@
 <body class="bg-[#F2F2F2] overflow-auto mb-[50px]">
 
     <div class="flex items-center px-6 py-2 h-40">
-        <a href="profile.php">
+        <a href="../profile.php">
             <button class="w-10 h-10 rounded-full bg-[#171717] flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-white"></i>
             </button>
@@ -45,7 +45,7 @@
     <div class="mt-10 px-6 text-[#171717] slide-up-fade-in">
         <div class="grid grid-cols-3 gap-4">
             <div class="col-span-1">
-                <img src="../assets/redeem1.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
+                <img src="../../assets/redeem1.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
             </div>
             <div class="col-span-2 ml-4">
                 <h2 class="text-4xl font-extrabold">Write the review</h2>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="col-span-1">
-                <img src="../assets/redeem2.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
+                <img src="../../assets/redeem2.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
             </div>
             <div class="col-span-2 ml-4">
                 <h2 class="text-4xl font-extrabold">Share your post</h2>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-span-1">
-                <img src="../assets/redeem3.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
+                <img src="../../assets/redeem3.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
             </div>
             <div class="col-span-2 ml-4">
                 <h2 class="text-4xl font-extrabold">Screenshot</h2>
