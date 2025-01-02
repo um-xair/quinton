@@ -51,7 +51,7 @@
                 <div>
                     <button type="submit" name="user_register" class="w-full bg-[#232323] text-white py-3 rounded-full font-semibold">Register Now</button>
                     <a href="login.php" class="block mt-10 text-sm text-[#171717]">Already have an account? <u>Log In</u></a>
-                    <a href="guest.php" class="block mt-2 text-sm text-[#171717]"><u>Continue as Guest</u></a>
+                    <a href="#" class="block mt-2 text-sm text-[#171717]"><u>Continue as Guest</u></a>
                 </div>
             </form>
 

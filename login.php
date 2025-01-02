@@ -43,7 +43,7 @@
                         </button>
                     </a>
                     <a href="register.php" class="block mt-10 text-sm text-[#171717]">Don't have an account? <u>Register Now</u></a> 
-                    <a href="guest.php" class="block mt-2 text-sm text-[#171717]"><u>Continue as Guest</u></a>
+                    <a href="#" class="block mt-2 text-sm text-[#171717]"><u>Continue as Guest</u></a>
                 </div> 
             </form> 
         </div> 
