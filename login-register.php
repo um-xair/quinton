@@ -41,7 +41,7 @@
                 <button onclick="window.location.href='register.php'" class="bg-transparent border-2 border-white text-white py-4 px-6 rounded-full w-full font-semibold hover:bg-[#FFFFFF] hover:text-[#171717] slide-up backdrop-blur-md">
                     Register
                 </button>
-                <button onclick="window.location.href='#'" class="bg-transparent border-2 border-white text-white py-4 px-6 rounded-full w-full font-semibold hover:bg-[#FFFFFF] hover:text-[#171717] slide-up backdrop-blur-md">
+                <button onclick="window.location.href='home.php'" class="bg-transparent border-2 border-white text-white py-4 px-6 rounded-full w-full font-semibold hover:bg-[#FFFFFF] hover:text-[#171717] slide-up backdrop-blur-md">
                     Continue as Guest
                 </button>
             </div>
