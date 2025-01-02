@@ -25,7 +25,7 @@
         }
     </style>
 </head>
-<body class="font-[Poppins] bg-[#F2F2F2] h-auto fade-in mb-[100px]">
+<body class="font-[Poppins] bg-[#F2F2F2] h-auto fade-in">
 
 <div class="w-full bg-[#171717] h-40 rounded-b-[90px] py-4 z-50">
         <div class="flex items-center justify-between px-6 h-full">
@@ -115,7 +115,7 @@
         </div>
     </div>
 
-    <div class="mt-10 w-full px-6 z-[999]">
+    <div class="mt-10 w-full px-6 mb-6">
         <a href="address-form.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Add Address
         </a>

@@ -68,20 +68,20 @@
 
         <div class="grid grid-cols-3 gap-2">
             <div class="text-center">
-                <div class="bg-white rounded-[20px] p-2">
-                    <img src="assets/stroller.png" alt="Category Image 1" class="w-full h-auto object-cover rounded-[20px]">
+                <div class="bg-white rounded-[30px] p-2">
+                    <img src="assets/stroller.png" alt="Category Image 1" class="w-full h-auto object-cover rounded-[30px]">
                 </div>
                 <p class="mt-2 text-sm md:text-base text-[#171717] text-center">Stroller</p>
             </div>
             <div class="text-center">
-                <div class="bg-white rounded-[20px] p-2">
-                    <img src="assets/car-seat.webp" alt="Category Image 2" class="w-full h-auto object-cover rounded-[20px]">
+                <div class="bg-white rounded-[30px] p-2">
+                    <img src="assets/car-seat.webp" alt="Category Image 2" class="w-full h-auto object-cover rounded-[30px]">
                 </div>
                 <p class="mt-2 text-sm md:text-base text-[#171717] text-center">Car Seat</p>
             </div>
             <div class="text-center">
-                <div class="bg-white rounded-[20px] p-2">
-                    <img src="assets/highchair.png" alt="Category Image 3" class="w-full h-auto object-cover rounded-[20px]">
+                <div class="bg-white rounded-[30px] p-2">
+                    <img src="assets/highchair.png" alt="Category Image 3" class="w-full h-auto object-cover rounded-[30px]">
                 </div>
                 <p class="mt-2 text-sm md:text-base text-[#171717] text-center">High Chair</p>
             </div>
@@ -160,7 +160,7 @@
 
         <div class="grid grid-cols-2 gap-4">
             <div class="text-left">
-                <div class="bg-white rounded-[20px] p-2 relative">
+                <div class="bg-white rounded-[30px] p-2 relative">
                     <img src="assets/stroller.png" alt="product-img-1" class="w-full h-auto object-cover">
                     <i class="fas fa-heart text-lg text-[#F12666] absolute top-3 right-4 cursor-pointer" id="heart-1" onclick="toggleHeart('heart-1')"></i>
                 </div>
@@ -168,7 +168,7 @@
                 <p class="text-md text-[#171717] font-bold">RM 999.00</p>
             </div>
             <div class="text-left">
-                <div class="bg-white rounded-[20px] p-2 relative">
+                <div class="bg-white rounded-[30px] p-2 relative">
                     <img src="assets/car-seat.webp" alt="product-img-2" class="w-full h-auto object-cover">
                     <i class="fas fa-heart text-lg text-[#F12666] absolute top-3 right-4 cursor-pointer" id="heart-2" onclick="toggleHeart('heart-2')"></i>
                 </div>
@@ -193,11 +193,12 @@
 
     <div class="bg-gradient-to-tr from-[#171717] via-[#2a2a35] to-[#171717] p-4 fixed bottom-0 left-0 w-full h-24 z-[888]">
         <div class="flex justify-between items-center text-center">
-            <a href="warranty/warranty-before.php" class="flex flex-col items-center text-white">
+            <a href="warranty/warranty-before.php" class="mt-2 flex flex-col items-center text-white">
                 <i class="fas fa-file-alt text-2xl"></i>
                 <p class="text-xs mt-1">Warranty</p>
             </a>
-            <a href="#find-us" class="flex flex-col items-center text-white">
+
+            <a href="#find-us" class="mt-2 flex flex-col items-center text-white">
                 <i class="fas fa-map-marker-alt text-2xl"></i>
                 <p class="text-xs mt-1">Find Us</p>
             </a>
@@ -206,12 +207,12 @@
                 <img src="assets/q.png" alt="Logo" class="w-10 h-10">
             </div>
 
-            <a href="#search" class="flex flex-col items-center text-white">
+            <a href="#search" class="mt-2 flex flex-col items-center text-white">
                 <i class="fas fa-search text-2xl"></i>
                 <p class="text-xs mt-1">Search</p>
             </a>
 
-            <a href="profile/profile.php" class="flex flex-col items-center text-white">
+            <a href="profile/profile.php" class="mt-2 flex flex-col items-center text-white">
                 <i class="fas fa-user-circle text-2xl"></i>
                 <p class="text-xs mt-1">Profile</p>
             </a>

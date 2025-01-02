@@ -45,7 +45,7 @@
     <div class="mt-10 px-6 text-[#171717] slide-up-fade-in">
         <div class="grid grid-cols-3 gap-4">
             <div class="col-span-1">
-                <img src="../../assets/redeem1.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
+                <img src="../../assets/redeem1.png" alt="Image" class="w-full h-auto object-cover">
             </div>
             <div class="col-span-2 ml-4">
                 <h2 class="text-4xl font-extrabold">Write the review</h2>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="col-span-1">
-                <img src="../../assets/redeem2.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
+                <img src="../../assets/redeem2.png" alt="Image" class="w-full h-auto object-cover">
             </div>
             <div class="col-span-2 ml-4">
                 <h2 class="text-4xl font-extrabold">Share your post</h2>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-span-1">
-                <img src="../../assets/redeem3.png" alt="Image" class="w-full h-auto rounded-[20px] object-cover">
+                <img src="../../assets/redeem3.png" alt="Image" class="w-full h-auto object-cover">
             </div>
             <div class="col-span-2 ml-4">
                 <h2 class="text-4xl font-extrabold">Screenshot</h2>

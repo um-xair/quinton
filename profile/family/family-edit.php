@@ -75,7 +75,7 @@
 
             <div class="mb-4">
                 <label for="family-photo" class="block text-[#171717] text-md font-semibold">Family Photo</label>
-                <label for="file-input" class="mt-1 w-full h-32 border-2 border-dashed border-[#171717] p-4 rounded-[20px] flex flex-col items-center justify-center mb-4 cursor-pointer">
+                <label for="file-input" class="mt-1 w-full h-32 border-2 border-dashed border-[#171717] p-4 rounded-[30px] flex flex-col items-center justify-center mb-4 cursor-pointer">
                     <i class="fa-solid fa-camera text-4xl"></i>
                     <span class="text-[#171717] text-sm">Upload family photo here</span>
                     <input type="file" id="file-input" class="hidden">

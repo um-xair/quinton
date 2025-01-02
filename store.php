@@ -19,10 +19,10 @@
 </head>
 <body class="bg-gray-100">
 
-    <div class="fade-in bg-gradient-to-r from-[#151515] via-[#272829] to-[#151515] px-4 py-10 relative rounded-b-[20px] backdrop-blur-sm bg-opacity-40 h-24">
+    <div class="fade-in bg-gradient-to-r from-[#151515] via-[#272829] to-[#151515] px-4 py-10 relative rounded-b-[30px] backdrop-blur-sm bg-opacity-40 h-24">
         <div class="flex justify-between items-center">
             <div>
-                <button class="w-10 h-10 rounded-[20px] bg-white flex items-center justify-center" onclick="goBack()">
+                <button class="w-10 h-10 rounded-[30px] bg-white flex items-center justify-center" onclick="goBack()">
                     <i class="fas fa-chevron-left text-lg text-[#272829]"></i>
                 </button>
             </div>

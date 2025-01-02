@@ -114,7 +114,7 @@
         </div>
     </div>
         
-    <div class="fixed bottom-10 left-0 w-full px-6 z-[999]">
+    <div class="mt-10 w-full px-6 mb-6">
         <a href="family-form.php" class="w-full inline-block bg-[#232323] py-6 rounded-full text-white text-lg font-bold text-center sm:text-base md:text-lg lg:text-xl">
             Add Family
         </a>

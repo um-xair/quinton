@@ -88,7 +88,7 @@
         </div>
 
         <div class="mt-4 px-4">
-            <div class="bg-white p-6 rounded-[20px]">
+            <div class="bg-white p-6 rounded-[30px]">
                 <p class="text-xs text-gray-600 mb-4">1 December 2024</p>
                 <h3 class="font-bold text-[#171717] text-lg mb-4">Big Savings Alert!</h3>
                 <p class="text-[#171717] text-sm mb-4">
