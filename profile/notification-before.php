@@ -21,7 +21,7 @@
             }
         }
         .fade-in {
-            animation: fadeIn 0.5s ease-in-out forwards;
+            animation: fadeIn 0.3s ease-in-out forwards;
         }
     </style>
 </head>

@@ -211,7 +211,7 @@
                 <p class="text-xs mt-1">Search</p>
             </a>
 
-            <a href="#profile" class="flex flex-col items-center text-white">
+            <a href="profile/profile.php" class="flex flex-col items-center text-white">
                 <i class="fas fa-user-circle text-2xl"></i>
                 <p class="text-xs mt-1">Profile</p>
             </a>
