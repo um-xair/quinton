@@ -81,7 +81,7 @@
                 Baby Shop Segamat
                 </h2>
                 <p class="text-[#171717] text-sm">
-                Pusat Komersil Yayasan, 85000 Segamat, Johor, Malaysia
+                Pusat Komersil Yayasan, 85000 Segamat, Johor, Malaysiahhhh
                 </p>
                 <a href="https://www.google.com/maps/dir/?api=1&destination=123+Example+Street,+City,+Country" target="_blank" class="bg-[#266FF1] text-white text-sm py-2 px-4 rounded-[20px] ">
                     Get Directions
