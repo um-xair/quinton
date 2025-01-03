@@ -198,7 +198,7 @@
                 <p class="text-xs mt-1">Warranty</p>
             </a>
 
-            <a href="#find-us" class="mt-2 flex flex-col items-center text-white">
+            <a href="find-us/store.php" class="mt-2 flex flex-col items-center text-white">
                 <i class="fas fa-map-marker-alt text-2xl"></i>
                 <p class="text-xs mt-1">Retail Partners</p>
             </a>

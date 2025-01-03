@@ -24,16 +24,32 @@
             width: 100%;
             z-index: 50;
         }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out forwards;
+        }
     </style>
 </head>
-<body class="bg-[#F2F2F2]">
+<body class="bg-[#F2F2F2] fade-in">
 
     <div class="header w-full bg-[#171717] h-40 rounded-b-[90px] py-4">
         <div class="flex items-center justify-between px-6 h-full">
-            <a href="profile.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="store.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
             </a>
-            <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl px-1 text-center">Store Locator</h1>
+            <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl px-1 text-center">Retails Partner</h1>
             <div class="w-10 h-10"></div>
         </div>
     </div>
@@ -73,24 +89,34 @@
         </div>
     </div>
 
-    <div class="fixed bottom-10 left-0 w-full px-6 z-[999] slide-up-fade-in">
-        <div class="w-full inline-block bg-white py-6 px-4 rounded-[30px] flex items-center space-x-4">
-            <img src="https://i.pinimg.com/736x/a4/a8/bf/a4a8bfc9980fafd43516cd7f8fb0df2d.jpg" alt="Shop Image" class="w-24 h-24 rounded-[20px] object-cover">
-            <div class="flex flex-col justify-center space-y-2 w-full">
-                <h2 class="text-[#232323] text-lg font-bold sm:text-base md:text-lg lg:text-xl">
-                Baby Shop Segamat
-                </h2>
-                <p class="text-[#171717] text-sm">
-                Pusat Komersil Yayasan, 85000 Segamat, Johor, Malaysiahhhh
+    <div class="fixed bottom-10 left-0 w-full px-6 py-2 z-[999] slide-up-fade-in">
+        <div class="w-full flex justify-end">
+            <a href="store-all.php" 
+               class="w-1/3 inline-block bg-[#266FF1] p-2 rounded-[30px] flex items-center justify-center space-x-4">
+                <p class="text-white text-md underline">
+                    View All
                 </p>
-                <a href="https://www.google.com/maps/dir/?api=1&destination=123+Example+Street,+City,+Country" target="_blank" class="bg-[#266FF1] text-white text-sm py-2 px-4 rounded-[20px] ">
+            </a>
+        </div>
+        <div class="w-full mt-2 grid grid-cols-[auto_1fr] items-center bg-white p-4 rounded-[30px] gap-3 bg-opacity-50 backdrop-blur-md">
+        <img src="https://i.pinimg.com/736x/a4/a8/bf/a4a8bfc9980fafd43516cd7f8fb0df2d.jpg" 
+                 alt="Shop Image" 
+                 class="w-24 h-24 rounded-[10px] object-cover">
+            <div class="flex flex-col justify-center">
+                <h2 class="text-[#171717] text-md font-bold">
+                    Baby Shop Segamat
+                </h2>
+                <p class="text-[#171717] text-xs">
+                    Pusat Komersil Yayasan, 85000 Segamat, Johor, Malaysia
+                </p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=123+Example+Street,+City,+Country" 
+                   target="_blank" 
+                   class="bg-[#232323] mt-2 text-white text-sm py-2 px-4 rounded-[10px]">
                     Get Directions
                 </a>
             </div>
         </div>
     </div>
-
-
 
     <script>
         const filterButton = document.getElementById('filterButton');
@@ -105,8 +131,8 @@
 
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: 1.552259247971418, lng: 103.7474106101468 },
-                zoom: 12,
+                center: { lat: 2.8467465737744786, lng: 102.40383352607294 },
+                zoom: 15,
                 disableDefaultUI: true, 
                 styles: [
                     {
@@ -117,7 +143,6 @@
             });
         }
     </script>
-
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfUHc27kQ5YhPOxLQO9AKG8m-OmvV7Nk&callback=initMap" async defer></script>
 </body>
 </html>

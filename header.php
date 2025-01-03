@@ -12,6 +12,28 @@
         body {
             font-family: 'Poppins', sans-serif;
         }
+         @keyframes slideIn {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .slide-in {
+            animation: slideIn 0.3s ease-out forwards;
+        }
+        @keyframes slideOut {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .slide-out {
+            animation: slideOut 0.3s ease-in forwards;
+        }
     </style>
 </head>
 <body class="py-6 bg-[#F2F2F2">
@@ -24,7 +46,7 @@
                 </button>
             </div>
             <div class="flex-1 text-center">
-                <img src="assets/logo-white.png" alt="Explore the World Together" class="w-1/2 mx-auto sm:w-1/3 md:w-1/4 lg:w-1/6">
+                <img src="../assets/logo-white.png" alt="Explore the World Together" class="w-1/2 mx-auto sm:w-1/3 md:w-1/4 lg:w-1/6">
             </div>
             <div>
                 <button class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
@@ -42,7 +64,7 @@
                 </button>
             </div>
             <div class="flex-1 text-center mr-10">
-                <img src="assets/logo-white.png" alt="Explore the World Together" class="w-1/2 mx-auto sm:w-1/3 md:w-1/4 lg:w-1/6">
+                <img src="../assets/logo-white.png" alt="Explore the World Together" class="w-1/2 mx-auto sm:w-1/3 md:w-1/4 lg:w-1/6">
             </div>
         </div>
 
@@ -114,11 +136,17 @@
 
         menuButton.addEventListener('click', () => {
             menu.classList.remove('hidden');
+            menu.classList.remove('slide-out');
+            menu.classList.add('slide-in'); 
             body.classList.add('overflow-hidden'); 
-        }); 
+        });
 
         closeMenuButton.addEventListener('click', () => {
-            menu.classList.add('hidden');
+            menu.classList.remove('slide-in');
+            menu.classList.add('slide-out');
+            setTimeout(() => {
+                menu.classList.add('hidden');
+            }, 500);
             body.classList.remove('overflow-hidden'); 
         });
     </script>

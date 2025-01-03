@@ -24,16 +24,32 @@
             width: 100%;
             z-index: 50;
         }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out forwards;
+        }
     </style>
 </head>
-<body class="bg-[#F2F2F2]">
+<body class="bg-[#F2F2F2] fade-in">
 
     <div class="header w-full bg-[#171717] h-40 rounded-b-[90px] py-4">
         <div class="flex items-center justify-between px-6 h-full">
-            <a href="profile.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+            <a href="../home.php" class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-solid fa-chevron-left text-[#171717]"></i>
             </a>
-            <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl px-1 text-center">Store Locator</h1>
+            <h1 class="text-white text-2xl font-extrabold sm:text-xl md:text-2xl lg:text-3xl px-1 text-center">Retails Partner</h1>
             <div class="w-10 h-10"></div>
         </div>
     </div>
@@ -86,8 +102,8 @@
 
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: 1.552259247971418, lng: 103.7474106101468 },
-                zoom: 12,
+                center: { lat: 2.8467465737744786, lng: 102.40383352607294 },
+                zoom: 15,
                 disableDefaultUI: true, 
                 styles: [
                     {
