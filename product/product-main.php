@@ -40,77 +40,85 @@
         </div>
     </div>
 
-    <div class="mt-6">
-        <div class="overflow-hidden">
-            <div class="grid grid-cols-4 gap-4 px-2 transition-transform duration-500" id="productGrid">
+    <div class="mt-6 px-2">
+        <div class="overflow-x-auto">
+            <div class="flex gap-2">
                 <div class="flex flex-col items-center">
                     <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden p-2">
                         <img src="../assets/stroller.png" alt="Image 1" class="w-full h-full object-cover" />
                     </div>
                     <p class="mt-2 text-center text-[#171717] text-xs">stroller</p>
                 </div>
-        
+
                 <div class="flex flex-col items-center">
                     <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden p-2">
                         <img src="../assets/highchair.png" alt="Image 2" class="w-full h-full object-cover" />
                     </div>
                     <p class="mt-2 text-center text-[#171717] text-xs">high chair</p>
                 </div>
-        
+
                 <div class="flex flex-col items-center">
                     <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden p-2">
                         <img src="../assets/crib.png" alt="Image 3" class="w-full h-full object-cover" />
                     </div>
                     <p class="mt-2 text-center text-[#171717] text-xs">baby crib</p>
                 </div>
-        
+
                 <div class="flex flex-col items-center">
                     <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden p-2">
                         <img src="../assets/coxy.png" alt="Image 4" class="w-full h-full object-cover" />
                     </div>
                     <p class="mt-2 text-center text-[#171717] text-xs">car seat</p>
                 </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden p-2">
+                        <img src="../assets/stroller.png" alt="Image 5" class="w-full h-full object-cover" />
+                    </div>
+                    <p class="mt-2 text-center text-[#171717] text-xs">stroller 2</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden p-2">
+                        <img src="../assets/highchair.png" alt="Image 6" class="w-full h-full object-cover" />
+                    </div>
+                    <p class="mt-2 text-center text-[#171717] text-xs">high chair 2</p>
+                </div>
             </div>
         </div>
-        
-        
-        <div class="mt-4 flex justify-center gap-2" id="pagination">
-            <button class="w-3 h-3 rounded-full bg-[#D2D2D2]"></button>
-            <button class="w-3 h-3 rounded-full bg-[#D2D2D2]"></button>
-            <button class="w-3 h-3 rounded-full bg-[#D2D2D2]"></button>
+    </div>
+
+    <div class="mt-6 px-2">
+        <div class="grid grid-cols-2 gap-2">
+            <div class="flex flex-col">
+                <div class="bg-white rounded-[30px] p-2 relative">
+                    <img src="../assets/stroller.png" alt="product-img-1" class="w-full h-auto object-cover">
+                </div>
+                <div class="ml-2 mt-2">
+                    <p class="text-sm md:text-base text-[#171717]">On The Go</p>
+                    <p class="text-md text-[#171717] font-bold">RM 999.00</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <div class="bg-white rounded-[30px] p-2 relative">
+                    <img src="../assets/car-seat.webp" alt="product-img-2" class="w-full h-auto object-cover">
+                </div>
+                <div class="ml-2 mt-2">
+                    <p class="text-sm md:text-base text-[#171717]">Maple 360</p>
+                    <p class="text-md text-[#171717] font-bold">RM 1699.00</p>
+                </div>
+            </div>
         </div>
     </div>
-        
-    <script>
-        const productGrid = document.getElementById('productGrid');
-        const pagination = document.getElementById('pagination').children;
-        let currentPage = 0;
-        
-        const productsPerPage = 4;
-        const totalPages = 3; 
-        
-        function slideTo(pageIndex) {
-            const totalProducts = document.querySelectorAll('#productGrid > div').length;
-            const totalWidth = productGrid.offsetWidth;
-            const offset = -(pageIndex * totalWidth);
-        
-            productGrid.style.transform = `translateX(${offset}px)`;
-        
-            Array.from(pagination).forEach((bullet, i) => {
-                if (i === pageIndex) {
-                    bullet.classList.add('bg-blue-500');
-                } else {
-                    bullet.classList.remove('bg-blue-500');
-                }
-            });
-        }
-    
-        Array.from(pagination).forEach((bullet, index) => {
-            bullet.addEventListener('click', () => slideTo(index));
-        });
-    
-        slideTo(0);
-    </script>
+
+
+
+
+
+
+
+
 
 
 
